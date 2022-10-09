@@ -249,7 +249,8 @@ p, span {
 }
 
 .footer .logo-footer {
-    filter: invert(100%);
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
     position: absolute;
     top: -100%;
 }
