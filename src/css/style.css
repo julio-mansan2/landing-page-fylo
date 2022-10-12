@@ -11,7 +11,7 @@ body {
     grid-template-columns: 1fr;
 }
 
-h2, h3, a, input {
+h1, h2, h3, a, input {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -60,7 +60,7 @@ p, span {
     gap: 20px;
 }
 
-.introduction h2 {
+.introduction h1 {
     font-size: 2.5rem;
     color: var(--very-dark-blue);
 }
@@ -257,7 +257,6 @@ p, span {
 
 .footer .contact {
     font-family: 'Open Sans', sans-serif;
-    color: var(--light-grayish-blue);
     align-self: flex-start;
     position: relative;
 }
@@ -272,6 +271,10 @@ p, span {
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+.contact a {
+    color: var(--light-grayish-blue);
 }
 
 .footer-info ul {
